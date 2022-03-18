@@ -1,0 +1,13 @@
+*{
+    text-align: center;
+}
+.ads{
+    background-image: url(../assets/shourav-sheikh-a66sGfOnnqQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.sasa{
+    font-size: 10vw;
+    padding: 50px;
+    color: black
+}
