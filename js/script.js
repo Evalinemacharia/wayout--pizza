@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="container1">
     <div class="oder here">
       <h1>ODER HERE AND WE DELIVER IT TO YOUR DOOR STEP!</h1>
@@ -30,3 +31,5 @@
         <div class="button">
           <br><br><button type="submit" id="btn">
 </section>
+=======
+>>>>>>> development

@@ -51,9 +51,9 @@ SOFTWARE.
       <form action="">
         <label for="" class="pt-1">Yummy! Select a ilePizza</label><br>
         <select name="" id="">
-          <option value="">small</option>
-          <option value="">medim</option>
-          <option value="">large</option>
+          <option value="small">small</option>
+          <option value="small">medim</option>
+          <option value="small">large</option>
         </select><br>
         <label for="" class="pt-1">Choose your Crust</label><br>
         <select name="" id="">
