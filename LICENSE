@@ -19,3 +19,71 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+<section id="aboutus">
+      <h3>About us</h3>
+      <p>NAKIN is one of the most trending pizza place in Kigali, chances are you could have the best slice of pizza you have ever eaten. Pizza truly makes the people come together. Not only is pizza the best because of its legendary blend of ingredients — crispy crust, bubbling cheese, savory tomato sauce, and whatever toppings you’re in the mood for — but it’s also the perfect shareable feast, as it’s pretty much humankind’s agreed-upon favorite food.Whether it’s spicing up a game night or making a weeknight at home that much more satisfying, pizza is always the best choice, pretty much any time you're craving something delicious.</p> 
+      <div class="row">
+        <div class="column">
+          <img src="./assets/pizza-isolated-5656323.jpg" alt="pizza" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="./assets/photo-1528137871618-79d2761e3fd5.jpeg" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="./assets/tasty-square-pizza-vegetables-isolated-white-61907080.jpg" alt="Mountains" style="width:100%">
+        </div>
+    </div>
+   </div>
+</div>
+      <section>
+        <h2>How we deliver</h2>
+        <div class="container">
+          <img src="./assets/square-pieces-pizza-counter-pizzeria-trays-37489331.jpg">
+          <div class="content">
+            <h1>Services</h1>
+            <p>Typically, pizzas are delivered in pizza boxes and the deliveries are made by a bicycle, motorized scooter, or automobile. The pizzerias companies use specialized software to identify the most efficient routes delivering pizza within a short time.</p>
+                   </p>
+          </div>
+       </div>
+        </div>
+      </section>
+      <form action="">
+        <label for="" class="pt-1">Yummy! Select a ilePizza</label><br>
+        <select name="" id="">
+          <option value="">small</option>
+          <option value="">medim</option>
+          <option value="">large</option>
+        </select><br>
+        <label for="" class="pt-1">Choose your Crust</label><br>
+        <select name="" id="">
+          <option value="300">Crispy</option>
+          <option value="150">Glutten free</option>
+          <option value="200">Stuffed</option>
+          <option value="250">Cheesed filled crust</option>
+          <option value="100">Deep crust</option>
+        </select><br>
+        <label for="" class="pt-1">Choose your toppings</label><br>
+        <select name="" id="">
+          <option value="100">Pineapple</option>
+          <option value="120">Onion</option>
+          <option value="50">Sausage</option>
+          <option value="200">Mushrooms</option>
+          <option value="450">Green pepper</option>
+        </select><br>
+        <br><label>Number of pizza</label><br>
+        <input value="" required placeholder="number of pizza" id="quantity"></input><br>
+        <div class="button">
+          <br><br><button type="submit" id="btn">
+          
+           
+        
+      
+
+      </form>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

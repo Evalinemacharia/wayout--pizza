@@ -5,9 +5,52 @@
     background-image: url(../assets/shourav-sheikh-a66sGfOnnqQ-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-attachment: fixed;
 }
 .sasa{
     font-size: 10vw;
     padding: 50px;
-    color: black
+    color: blue;
+    font-family: 'Lobster', cursive;
 }
+* {
+    box-sizing: border-box;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  img {
+    max-width: 100%
+  }
+  .image {
+    flex-basis: 40%
+  }
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+    font-family: 'Cardo', serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .container1 {
+    background-image: url("../assets/photo-1513104890138-7c749659a591.jpeg");
+  }
+  
+  
