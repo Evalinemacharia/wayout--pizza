@@ -51,6 +51,10 @@
   
   .container1 {
     background-image: url("../assets/photo-1513104890138-7c749659a591.jpeg");
+    background-attachment: fixed;
+    color:white;
+    
+    
   }
   
   
