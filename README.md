@@ -1,13 +1,17 @@
 # Wayout pizza
-#### This is a web application that assigns one to implement ,Javascript.HTML,CSS.BOOSTRAP,GIT, 11/03/2022
-#### By **Evaline Wangu**
+#### Author
+## Evaline Wangu
+## Description
+* This is a web application for Wayout pizza which is a pizza selling venture, that shows details about the services and diffent pizza they sell, their menu and also allows customers to order online for their preferred pizza depending on size, crust they need and also allows them to input a location which they would love the piza to be delivered to.
+
+
 
 ## Setup/Installation Requirements
-* To be able to contribute on this project;you can follow the quick simple steps you'll be good to go.
-* Fork the the project and copy the repository link.
-* clone the project to your computer
-* Open  the project to your computer
-* Enjoy
+* HTML
+* CSS
+* boostrap
+* Javascript
+* 
 
 ## Known Bugs
 The current version runs with unknown bugs
@@ -20,7 +24,7 @@ The current version runs with unknown bugs
 ## Dependancies
 JQuery library
 ## Support and contact details
-To be a collaborator,you can contact on my Email:evalinemacharia@student.moringaschool.com
+* To be a collaborator,you can contact on my Email:evalinemacharia@student.moringaschool.com
 ### License
 MIT License
 
