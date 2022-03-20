@@ -1,26 +1,27 @@
 # Wayout pizza
 #### Author
-## Evaline Wangu
+ Evaline Wangu
 ## Description
 * This is a web application for Wayout pizza which is a pizza selling venture, that shows details about the services and diffent pizza they sell, their menu and also allows customers to order online for their preferred pizza depending on size, crust they need and also allows them to input a location which they would love the piza to be delivered to.
 
 
 
 ## Setup/Installation Requirements
-* HTML
-* CSS
-* boostrap
-* Javascript
+* git clone
+* open terminal
+* cd Wayout--pizza
+* code .
 * 
 
 ## Known Bugs
 The current version runs with unknown bugs
 
 ## Technologies Used
-* HML
-* css
+* HTML
+* CSS
 * Boostrap
 * Javascript
+* jQuery
 ## Dependancies
 JQuery library
 ## Support and contact details

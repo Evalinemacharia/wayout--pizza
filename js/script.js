@@ -1,35 +1,81 @@
-<<<<<<< HEAD
-<div class="container1">
-    <div class="oder here">
-      <h1>ODER HERE AND WE DELIVER IT TO YOUR DOOR STEP!</h1>
-      <select>
-        <label for="select " class="pt-1">select size</label>
-        <select name="" id="">
-        
-          <option value="large"></option>
-          <option value="medium"></option>
-          <option value="small"></option>
-      </select>
-      <label for="" class="pt-1">Choose your Crust</label><br>
-        <select name="" id="">
-          <option value="crispy">Crispy---sh 120</option>
-          <option value="Glutten">Glutten free---sh 100</option>
-          <option value="Stuffed">Stuffed---sh 300</option>
-          <option value="Cheesd filled crust">Cheesed filled crust---sh 400</option>
-          <option value="Deep crust">Deep crust---sh 150</option>
-        </select><br>
-        <label for="" class="pt-1">Choose your toppings</label><br>
-        <select name="" id="">
-          <option value="100">Pineapple</option>
-          <option value="120">Onion</option>
-          <option value="50">Sausage</option>
-          <option value="200">Mushrooms</option>
-          <option value="450">Green pepper</option>
-        </select><br>
-        <br><label>Number of pizza</label><br>
-        <input value="" required placeholder="number of pizza" id="quantity"></input><br>
-        <div class="button">
-          <br><br><button type="submit" id="btn">
-</section>
-=======
->>>>>>> development
+var price , crust_price, topping_price ;
+let total = 0;
+function Getpizza( name,size,crust,topping, total ){
+  this.name = name;
+  this.size = size;
+  this.crust = crust;
+  this.topping = topping;
+  this.total = total;
+}
+$(document).ready(function(){
+    $("button.Order Now").click(function(){
+        $("button.ordernow").hide();
+    })
+});
+$("button.Order Now").click(function(event){
+    let pname = $(".name option:selected").val()
+    let psize = $(".size option:selected").val()
+    let pcrust = $(".crust option:selected").val()
+    let ptopping = $(".topping option:selected").val()
+}
+switch (psize){
+    case "0":
+        price = 0;
+        break;
+        case "large":
+            price = 1200;
+            console.log(price);
+            break;
+            case "medium":
+                price = 1000;
+                console.log(price);
+                break;
+                case "small":
+                price = 500;
+                console.log(price);
+                default:
+                console.log("error");
+
+}
+switch (pcrust){
+    case "0":
+    crust_price = 0;
+    break;
+    case "crispy":
+        crust_price = 150;
+        break;
+        case "Glutten free":
+            crust_price = 250;
+            break;
+        case "Stuffed":
+            crust_price = 350;
+            break;
+            default:
+                console.log("no price");
+
+
+}
+if ((psize == "0" )&&(pcrust == "0")) {
+    console.log("  nothing  selected");
+    $("button.Order Now").show();
+    alert("please select size");
+    
+
+    
+}
+else {
+    $("button.Order Now").hide();
+
+}
+total = price + crust_price + topping_price;
+console.log("total");
+
+$("#pizzaname").html($)(".name option:selected").val();
+$("#pizzasize").html($)(".name option:selected").val();
+$("#pizzacrust").html($)(".name option:selected").val();
+$("#pizzatopping").html($)(".name option:selected").val();
+$("#totals").html(total);
+
+var newOrder = new Getpizza(pname, psize, pcrust,ptopping,total);
+$("#ordersmade").append(' id="pizzaname">'+newOrder.name +' id="pizzasize">' + newOrder.size + ' id="pizzacrust">'+newOrder.crust + ' id="pizzatopping">'+newOrder.topping+' id="totals">'+newOrder.total+'');
+      console.log(newOrder);
