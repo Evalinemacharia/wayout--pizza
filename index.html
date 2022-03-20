@@ -30,7 +30,7 @@
                     <a class="nav-link" href="#land">Land</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#about us">About us.</a>
+                    <a class="nav-link" href="#aboutus">About us</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">contact</a>
@@ -45,7 +45,7 @@
      </section>
      <div class="container">
       <div class="image">
-        <img src="./assets/italian-cuisine-6903774__340.jpg">
+        <img src="./assets/pizza-2.gif">
       </div>
       <div class="text">
         <h1>About us.</h1>
@@ -54,61 +54,118 @@
     </div>
     <section>
       <div class="container3"></div>
-      <div class="varities"></div>
+      <div class="h1"></div>
       <h2>Our varities</h2>
-<p>This are some of the pizza that we offer:</p>
+      <p>This are some of the pizza that we offer:</p>
 
 <div class="row">
   <div class="column">
     <img src="./assets/istockphoto-1384041618-170667a.jpg" alt="Snow" style="width:80%">
-    <P>Deep crust</P>
+    <P>pepproni pizza</P>
   </div>
   <div class="column">
     <img src="./assets/istockphoto-184946701-170667a.jpg" alt="Forest" style="width:80%">
-    <P>Glutten free</P>
+    <P>Hawaliani</P>
   </div>
   <div class="column">
     <img src="./assets/pizza-isolated-5656323.jpg" alt="Mountains" style="width:80%">
-    <p>Stuuffed</p>
+    <p>Sunchoke</p>
   </div>
 </div>
 <section>
-  <div class="container1" id="order">
+  <div class="container-fluid order" id="make-order">
     <div class="order-overlay">
-      <div class="controls-top text-center" id="Order-now">
-      <h1>ODER HERE AND WE DELIVER IT TO YOUR DOOR STEP!</h1>
-       <select>
-        <label for="select " class="pt-1">select size</label>
-        <select name="" id="">
-          <option value="large"></option>
-          <option value="medium"></option>
-          <option value="small"></option>
-      </select>
-      <label for="" class="pt-1">Choose your Crust</label><br>
-        <select name="" id="">
-          <option value="crispy">Crispy---sh 120</option>
-          <option value="Glutten">Glutten free---sh 100</option>
-          <option value="Stuffed">Stuffed---sh 300</option>
-          <option value="Cheesd filled crust">Cheesed filled crust---sh 400</option>
-          <option value="Deep crust">Deep crust---sh 150</option>
-        </select><br> 
-         <label for="" class="pt-1">Choose your toppings</label><br>
-        <select name="" id="">
-          <option value="100">Pineapple</option>
-          <option value="120">Onion</option>
-          <option value="50">Sausage</option>
-          <option value="200">Mushrooms</option>
-          <option value="450">Green pepper</option>
-        </select><br> 
-        <br><label>Number of pizza</label><br>
-        <input value="" required placeholder="number of pizza" id="quantity"></input><br>
-        <div class="button">
-          <br><br><button type="submit" id="btn">
-</section>
+    <div class="controls-top text-center" id="Order-now"> 
+    </div>
+      <h2>Order your pizza here and we will deliver it to you at your door step!</h2>
+    <div class="jumbotron" id="orders">
+        <h1>Order</h1>
+   <form class="text-center" id="text-center">
+      </select><br> 
+    <br><label>pizza name</label><br>
+    <select class="browser-default custom-select custom-select-md mb-3" id="size">
+      <option selected value="0">Select pizza here</option>
+      <option value="pepporoni">Pepperoni </option>
+      <option value="Hawaiani">Hawaiani </option>
+      <option value="Sunchoke">Sunchoke </option>
+    
+    </select><br>
+    <br><label>pizza size</label><br>
+    <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+      <option selected value="0">Select your preferred pizza size!</option>
+    <option value="small">Small-- sh. 500</option>
+    <option value="medium">Medium-- sh. 1000</option>
+    <option value="large">Large-- sh. 1200</option>
+   
+    </select><br>
+    <br><label>pizza Topping</label><br>
+    <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+      <option selected value="0">Select your preferred Topping!</option>
+    <option value="Pepperoni">pepperoni -- sh. 200</option>
+    <option value="Mushrooms">Mushrooms -- sh. 150</option>
+    <option value="Onion">Onion-- sh. 180</option>
+    <option value="Sausage">Sausage-- sh.100</option>
+    <option value="Green peppers">Green peppers-- sh. 130</option>
+    <select>
+      <br><label>Pizza crust</label><br>
+      <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+        <option selected value="0">Select your preferred crust!</option>
+        <option value="Crispy">cruspy--sh. 150</option>
+        <option value="Glutten flee">Glutten flee-- sh. 250</option>
+        <option value="Stuffed">Stuffed-- sh. 350</option>
+    </select>
+    </select><br>
+    <label >Order number of pizzas:</label><br>
+            <select name="quantity" id="pizzaquantity"><br>
+                <option value="100">1</option>
+                <option value="200">2</option>
+                <option value="300">3</option>
+                <option value="400">4</option>
+                <option value="500">5</option>
+            </select>
+    
+      <label for="deliver">Need pizza delivered at your place?</label>
+      <br>
+      <label><input type="radio" name="Yes" value="yes" id="myRadio" > Yes</label>
+      <label><input type="radio" name="Yes" value="No" > No</label>
+      <br>
+     <button type="button" name="getVal" id="ordernow">Order Now</button>
+      <button id="submitorder">Submit</button>
+  </form>
+  <!-- <form id="delivery">
+    <label for="delivery"></label>delivered<br>
+    <div class="custom-control custom-checkbox custom-control-inline">
+      <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
+      <label class="custom-control-label" for="Sausage">yes</label>
+    </div>
+    <div class="custom-control custom-checkbox custom-control-inline">
+      <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon" name="toppings">
+      <label class="custom-control-label" for="Bacon">no</label>
+    </div>
+   
+    <br><br>
+  <button type="submit" class="btn btn-orange proceed">Proceed</button>
+</form> -->
 
-    </section>
-</body>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="js/script.js">
-</html>
 
+    
+  </form> 
+  <div class="container-fluid bg-default" id="contact">
+    <div class="controls-top">
+      <h2>contact</h2>
+    </div>
+    <div class="row" id="contact details" >
+      <div class="col-md-1">
+
+      </div>
+      <div class="col-md-3">
+        <h2>Customer care</h2>
+      </div>
+    </div>
+  </div>
+  
+
+    </body>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="./js/script.js"></script>
+</html> 

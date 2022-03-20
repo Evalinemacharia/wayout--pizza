@@ -1,63 +1,69 @@
 *{
-    text-align: center;
+  text-align: center;
 }
 .ads{
-    background-image: url(../assets/shourav-sheikh-a66sGfOnnqQ-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
+  background-image: url(../assets/shourav-sheikh-a66sGfOnnqQ-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
 }
 .sasa{
-    font-size: 10vw;
-    padding: 50px;
-    color: blue;
-    font-family: 'Lobster', cursive;
+  font-size: 10vw;
+  padding: 50px;
+  color: blue;
+  font-family: 'Lobster', cursive;
 }
 * {
-    box-sizing: border-box;
-  }
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: center
-  }
-  img {
-    max-width: 100%
-  }
-  .image {
-    flex-basis: 40%
-  }
-  .text {
-    font-size: 20px;
-    padding-left: 20px;
-    font-family: 'Cardo', serif;
-  }
-  * {
-    box-sizing: border-box;
-  }
-  
-  .column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-  }
-  
-  /* Clearfix (clear floats) */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  .container1 {
-    background-image: url("../assets/photo-1513104890138-7c749659a591.jpeg");
-    background-attachment: fixed;
-    color:white;
-    
-    
-  }
-.container1 :hover .order-overlay {
-  background-color:black ;
+  box-sizing: border-box;
 }
-  
-  
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+img {
+  max-width: 100%
+}
+.image {
+  flex-basis: 40%
+}
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+  font-family: 'Cardo', serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.order {
+  background-image: url("../assets/photo-1513104890138-7c749659a591.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-attachment: fixed;
+  color: white;
+  padding-top: 4%;
+  padding-bottom: 4%;
+
+}
+.order-overlay{
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-bottom: 20px;
+  padding-left: 6%;
+}
